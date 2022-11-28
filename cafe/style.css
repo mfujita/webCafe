@@ -1,0 +1,329 @@
+/* lanal */
+/*  */
+
+@media only screen and (max-width: 500px) {
+    :root {
+        --boxHeight: 300px;
+    }
+
+    body {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        background-image: linear-gradient(rgb(76, 255, 195), rgb(134, 245, 208));
+    }
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5px;
+        list-style-type: none;
+    }
+
+    ul li::before {
+        content: "֍ ";
+    }
+
+    .caixa {
+        height: var(--boxHeight);
+        display: flex;
+        width: 390px;
+        border: 2px black solid;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        line-height: var(--boxHeight);
+    }
+
+    .tituloMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 30px;
+        font-weight: 800;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        margin-bottom: 320px;
+    }
+
+    .detalhe {
+        margin-bottom: 5px;
+    }
+
+    .preco, .quantidade {
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    .rodape {
+        height: 200px;
+        background-color: rgb(134, 245, 208);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .inicial {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .endereco {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .rua {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .bairro {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .cidade {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .telefone {
+        display: grid;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1279px) {
+    :root {
+        --boxHeight: 280px;
+    }
+
+    body {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(134, 245, 208));
+    }
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5px;
+        list-style-type: none;
+    }
+
+    ul li::before {
+        content: "֍ ";
+    }
+
+    .caixa {
+        height: var(--boxHeight);
+        display: flex;
+        width: 580px;
+        border: 2px black solid;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        line-height: var(--boxHeight);
+    }
+
+    .tituloMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 30px;
+        font-weight: 800;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        margin-bottom: 320px;
+    }
+
+    .detalhe {
+        margin-bottom: 5px;
+    }
+
+    .preco, .quantidade {
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    .rodape {
+        height: 200px;
+        background-color: rgb(134, 245, 208);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .inicial {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .endereco {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .rua {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .bairro {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .cidade {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .telefone {
+        display: grid;
+        flex-direction: row;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1280px) {
+    :root {
+        --boxHeight: 250px;
+    }
+
+    body {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        margin: auto;
+        background-image: linear-gradient(rgb(76, 255, 195), rgb(134, 245, 208));
+    }
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5px;
+        list-style-type: none;
+    }
+
+    ul li::before {
+        content: "֍ ";
+    }
+
+    .caixa {
+        height: var(--boxHeight);
+        display: flex;
+        margin: auto;
+        width: 800px;
+        border: 2px black solid;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        line-height: var(--boxHeight);
+    }
+
+    .tituloMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 30px;
+        font-weight: 800;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        margin-bottom: 320px;
+    }
+
+    .detalhe {
+        margin-bottom: 5px;
+    }
+
+    .preco, .quantidade {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+
+    .rodape {
+        height: 100px;
+        background-color: rgb(134, 245, 208);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .inicial {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .endereco {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .rua {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .bairro {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .cidade {
+        display: grid;
+        flex-direction: row;
+    }
+
+    .telefone {
+        display: grid;
+        flex-direction: row;
+    }
+}

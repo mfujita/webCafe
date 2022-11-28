@@ -1,0 +1,29 @@
+/* index */
+
+body {
+    background-image: url('cafe-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white
+}
+
+.tituloCapa {
+    font-size: 3em;
+}
+
+.alimentos, .bebidas {
+    margin-left: 3%;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+
