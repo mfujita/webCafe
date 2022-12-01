@@ -4,6 +4,8 @@ body {
     background-image: url('cafe-fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 .container {
